@@ -3,8 +3,6 @@ name: Create a comment on new issues
 on:
   issues:
     types: [opened]
-permissions:
-  contents: write
 jobs:
   comment-with-action:
     runs-on: ubuntu-latest
